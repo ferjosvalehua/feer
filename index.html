@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="estilos.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ </head>
+ <body>
+    <nav>
+        <div class="logo"></div>
+        <a class="btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+        <div class="menu">
+            <a href="#home">INICIO</a>
+            <a href="#gal">GALERIA</a>
+            <a href="#vid">VIDEOS</a>
+            <a href="#not">NOTICIAS</a>
+        </div>
+    </nav>
+    <header></header>
+        <section>
+            <div id="home">
+                <h1>INICIO</h1>
+
+                <P>Demon Slayer: Kimetsu no Yaiba es un anime que inició sus transmisiones en 2019.
+                   Como su nombre lo anuncia, está basada en el manga escrito e ilustrado por Koyoharu Gotouge. 
+                   La dirección de la primera temporada recayó en el talento de Haruo Sotozaki, quien cosechó varios elogios por su trabajo en esta adaptación.
+                </P>
+                <br>
+                <p>
+                    La franquicia se encuentra en su mejor momento, ya que el estreno de la película basada en el manga acaba de hacer historia en su país natal. Solo para dimensionar el interés que despierta la saga, la cinta basada en dicho universo se convirtió en la película más taquillera de todos los tiempos en Japón. Así es como dejó atrás a otras producciones legendarias como El viaje de Chihiro.
+                </p>
+                <br>
+                <p>
+                    El protagonista de la historia es Kamado Tanjiro, un joven que tiene un gran corazón, pero que también presume sobrada inteligencia. Su historia resulta conmovedora porque se dedica a la venta de carbón para sobrevivir al lado de su familia. Sin embargo, la tragedia toca a su puerta cuando sus seres queridos son asesinatos. El culpable es Oni, un demonio sanguinario. Su hermana Nezuko, quien también sobrevivió al ataque, fue convertida en un peligroso ser que con características sobrenaturales. Así es como Tanjiro busca transformarse en un asesino de demonios, con la intención de vengar a su familia y recuperar a su hermana.
+                </p>
+            </div>
+            <div id="gal">
+                <h1>GALERIA</h1>
+                  <div class="contenedor">
+                    <img src="img/im1.jpg" alt="" class="galeria__img">
+                    <img src="img/im2.jpg" alt="" class="galeria__img">
+                    <img src="img/im3.jpg" alt="" class="galeria__img">
+                    <img src="img/im4.jpg" alt="" class="galeria__img">
+                    <img src="img/im5.jpg" alt="" class="galeria__img">
+                    <img src="img/im6.jpg" alt="" class="galeria__img">
+                  </div>
+            </div>
+            <div id="vid">
+                <h1>VIDEOS</h1>
+               <div class="alinear">
+                  <iframe  width="650" height="625" src="https://www.youtube.com/embed/VQGCKyvzIM4" title="Demon Slayer: Kimetsu no Yaiba Trailer 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>>
+               </div> 
+               <br>
+               <br>
+               <div class="alinear">
+                <iframe width="650" height="625" src="https://www.youtube.com/embed/a9tq0aS5Zu8" title="Demon Slayer: Kimetsu no Yaiba Swordsmith Village Arc Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               </div>
+            </div>
+            <div id="not">
+                <h1>NOTICIAS</h1>
+                 <p>
+                    Tal parece que la franquicia de Koyoharo Gotouge quiere dar las primicias antes, pues tan solo una semana después es el evento Jump Festa 2022, por lo que podría ser un anuncio con mucho peso o bien, un simple teaser y en el gran evento revelar hasta un tráiler.
+                    La tercera temporada de Kimetsu no Yaiba se encuentra actualmente en producción y los nuevos episodios podrían llegar hasta 2023, mientras que la primera temporada producida por Ufotable llegó en 2019, mientras que la segunda apareció en 2021.
+                    Esta llegó en conjunto con una versión televisiva de la cinta de Mugen Train, la cual cautivó a muchos fanáticos por la calidad de animación que hubo en cada una de las batallas entre los personajes de la serie.
+                 </p>
+            </div>
+        </section>
+
+    <script type="text/javascript">
+        $(".btn").on("click", function(){
+            $('.menu').toggleClass("show");
+        });
+    </script>
+ </body>
+</html>
